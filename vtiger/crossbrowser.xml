@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1" parallel="classes">
+    <classes>
+      <class name="CrossBrowserTesting.Sample2"/>
+      <class name="CrossBrowserTesting.Sample3"/>
+      <class name="CrossBrowserTesting.Sample1"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test2" parallel="classes">
+    <classes>
+      <class name="CrossBrowserTesting.Sample2"/>
+      <class name="CrossBrowserTesting.Sample3"/>
+      <class name="CrossBrowserTesting.Sample1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
